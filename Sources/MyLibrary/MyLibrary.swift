@@ -7,7 +7,7 @@ public struct MyLibrary {
         
     }
     
-    static func showAlert(inView controller: UIViewController) {
+    public func showAlert(inView controller: UIViewController) {
         let alert = UIAlertController(title: "Title", message: "My Library test message", preferredStyle: .alert)
         controller.present(alert, animated: true)
     }
